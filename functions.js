@@ -1,3 +1,10 @@
+// Increment function
+function Increment(input1) {
+   // parameter 1: any JavaScript value
+   // Return: a single JavaScript value
+   return ++input1;
+}
+
 // divide function
 function divide(input1, input2) {
    // parameter 1: any JavaScript value
