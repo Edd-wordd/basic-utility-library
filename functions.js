@@ -1,3 +1,11 @@
+// Manipulate Arrays With unshift()
+function arrayWithUnshift(input1) {
+   var array100 = ["apple", "orange", "pear"];
+   array100.unshift(input1);
+   // Return: a single JavaScript value
+   return array100;
+}
+
 // Manipulate Arrays With shift()
 function arrayWithShift() {
    var array1 = ["apple", "orange", "pear"];
