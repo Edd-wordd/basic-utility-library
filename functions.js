@@ -1,4 +1,14 @@
-// Concatenating strings w/variables operator function
+//  function to find the length of a string
+function stringLength(input1) {
+   var length = input1.length;
+
+   // parameter 1: any JavaScript value
+   // parameter 2: any JavaScript value
+   // Return: a single JavaScript value
+   return length;
+}
+
+// Concatenating strings w/variables function
 function ConcatenatingStringVariables(input1, input2) {
    var firstLine = input1 + " ";
    var secondLine = input2;
