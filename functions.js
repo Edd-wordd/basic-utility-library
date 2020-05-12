@@ -1,7 +1,15 @@
+//  Use Bracket Notation to Find the First Character in a String
+function firstCharacter(input1) {
+   var foundIt = input1[0];
+   // parameter 1: any JavaScript value
+   // parameter 2: any JavaScript value
+   // Return: a single JavaScript value
+   return foundIt;
+}
+
 //  function to find the length of a string
 function stringLength(input1) {
    var length = input1.length;
-
    // parameter 1: any JavaScript value
    // parameter 2: any JavaScript value
    // Return: a single JavaScript value
