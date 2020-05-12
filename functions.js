@@ -1,3 +1,11 @@
+// Concatenating strings w/plus equals operator function
+function ConcatenatingStrings(input1, input2) {
+   // parameter 1: any JavaScript value
+   // parameter 2: any JavaScript value
+   // Return: a single JavaScript value
+   return (input1 += input2);
+}
+
 // Concatenating strings w/plus operator function
 function Concatenating(input1, input2) {
    // parameter 1: any JavaScript value
