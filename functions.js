@@ -1,3 +1,16 @@
+// Stand in line
+
+function standInLine(arr, num1) {
+   var line = [1, 2, 3, 4, 5, 6];
+   arr.push(num1);
+   var upNext = line.shift();
+
+   // parameter 1: any JavaScript value
+   // parameter 2: any JavaScript value
+   // Return: a single JavaScript value
+   return upNext;
+}
+
 // Shopping List
 function shoppingList(input1, num1) {
    var myList = [];
@@ -8,7 +21,7 @@ function shoppingList(input1, num1) {
    return myList;
 }
 
-// Manipulate Arrays With unshift()
+// Manipulate Arrays With unshift()/ unshift() adds values to the beginning of the array
 function arrayWithUnshift(input1) {
    var array100 = ["apple", "orange", "pear"];
    array100.unshift(input1);
@@ -16,7 +29,7 @@ function arrayWithUnshift(input1) {
    return array100;
 }
 
-// Manipulate Arrays With shift()
+// Manipulate Arrays With shift()/ shift() removes the first value of an array
 function arrayWithShift() {
    var array1 = ["apple", "orange", "pear"];
    var firstGone = array1.shift();
@@ -24,7 +37,7 @@ function arrayWithShift() {
    return firstGone;
 }
 
-// Manipulate Arrays With push()
+// Manipulate Arrays With pop()/ pop() removes the last value of the array
 function arrayWithPop() {
    var array1 = ["apple", "orange", "pear"];
    var lastGone = array1.pop();
@@ -32,7 +45,7 @@ function arrayWithPop() {
    return lastGone;
 }
 
-// Manipulate Arrays With push()
+// Manipulate Arrays With push()/ push() adds a value to the end of the array
 function arrayWithPush(input1) {
    var array1 = ["apple"];
    array1.push(input1);
