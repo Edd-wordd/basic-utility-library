@@ -1,3 +1,14 @@
+// Concatenating strings w/variables operator function
+function ConcatenatingStringVariables(input1, input2) {
+   var firstLine = input1 + " ";
+   var secondLine = input2;
+   var bothLines = firstLine + secondLine;
+   // parameter 1: any JavaScript value
+   // parameter 2: any JavaScript value
+   // Return: a single JavaScript value
+   return bothLines;
+}
+
 // Concatenating strings w/plus equals operator function
 function ConcatenatingStrings(input1, input2) {
    // parameter 1: any JavaScript value
