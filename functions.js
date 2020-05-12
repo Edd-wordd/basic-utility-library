@@ -1,9 +1,17 @@
+// Manipulate Arrays With shift()
+function arrayWithShift() {
+   var array1 = ["apple", "orange", "pear"];
+   var firstGone = array1.shift();
+   // Return: a single JavaScript value
+   return firstGone;
+}
+
 // Manipulate Arrays With push()
 function arrayWithPop() {
    var array1 = ["apple", "orange", "pear"];
-   var oneGone = array1.pop();
+   var lastGone = array1.pop();
    // Return: a single JavaScript value
-   return oneGone;
+   return lastGone;
 }
 
 // Manipulate Arrays With push()
