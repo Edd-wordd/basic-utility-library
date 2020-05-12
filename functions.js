@@ -1,3 +1,12 @@
+// Manipulate Arrays With push()
+function arrayWithPush(input1) {
+   var array1 = ["apple"];
+   array1.push(input1);
+   // parameter 1: any JavaScript value
+   // Return: a single JavaScript value
+   return array1;
+}
+
 // Use Bracket Notation to Find the Nth-to-Last Character in a String
 function secondToLastCharacter(input1) {
    var almostLast = input1[input1.length - 2];
