@@ -1,4 +1,12 @@
 // Manipulate Arrays With push()
+function arrayWithPop() {
+   var array1 = ["apple", "orange", "pear"];
+   var oneGone = array1.pop();
+   // Return: a single JavaScript value
+   return oneGone;
+}
+
+// Manipulate Arrays With push()
 function arrayWithPush(input1) {
    var array1 = ["apple"];
    array1.push(input1);
