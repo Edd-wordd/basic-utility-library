@@ -1,3 +1,13 @@
+// Shopping List
+function shoppingList(input1, num1) {
+   var myList = [];
+   myList.push(input1, num1);
+   // parameter 1: any JavaScript value
+   // parameter 2: any JavaScript value
+   // Return: a single JavaScript value
+   return myList;
+}
+
 // Manipulate Arrays With unshift()
 function arrayWithUnshift(input1) {
    var array100 = ["apple", "orange", "pear"];
