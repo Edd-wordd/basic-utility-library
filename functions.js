@@ -1,3 +1,11 @@
+// divide decimal function
+function divideDecimal(input1, input2) {
+   // parameter 1: any JavaScript value
+   // parameter 2: any JavaScript value
+   // Return: a single JavaScript value
+   return input1 / input2;
+}
+
 // multiply two decimals function
 function decimal(input1, input2) {
    // parameter 1: any JavaScript value
