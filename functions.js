@@ -1,8 +1,16 @@
+//  Use Bracket Notation to Find the Nth Character in a String
+function nthCharacter(input1) {
+   var secondToLast = input1[input1.length - 2];
+   // parameter 1: any JavaScript value
+   // parameter 2: any JavaScript value
+   // Return: a single JavaScript value
+   return secondToLast;
+}
+
 //  Use Bracket Notation to Find the First Character in a String
 function firstCharacter(input1) {
    var foundIt = input1[0];
    // parameter 1: any JavaScript value
-   // parameter 2: any JavaScript value
    // Return: a single JavaScript value
    return foundIt;
 }
@@ -11,7 +19,6 @@ function firstCharacter(input1) {
 function stringLength(input1) {
    var length = input1.length;
    // parameter 1: any JavaScript value
-   // parameter 2: any JavaScript value
    // Return: a single JavaScript value
    return length;
 }
