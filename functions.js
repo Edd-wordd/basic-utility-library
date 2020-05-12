@@ -1,15 +1,23 @@
-// add function
+// divide function
+function divide(input1, input2) {
+   // parameter 1: any JavaScript value
+   // parameter 2: any JavaScript value
+   // Return: a single JavaScript value
+   return input1 / input2;
+}
+
+// multiply function
 function multiply(input1, input2) {
-   // A1: any JavaScript value
-   // A2: any JavaScript value
-   // R: a single JavaScript value
+   // parameter 1: any JavaScript value
+   // parameter 2: any JavaScript value
+   // Return: a single JavaScript value
    return input1 * input2;
 }
 
 // subtract function
 function subtract(input1, input2) {
-   // Argument 1: any JavaScript value
-   // Argument 2: any JavaScript value
+   // parameter 1: any JavaScript value
+   // parameter 2: any JavaScript value
    // Return: a single JavaScript value
    return input1 - input2;
 }
