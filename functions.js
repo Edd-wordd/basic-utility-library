@@ -1,10 +1,8 @@
 // Stand in line
-
 function standInLine(arr, num1) {
    var line = [1, 2, 3, 4, 5, 6]; //people in line
    arr.push(num1); //user inputs an array and adds to the end of the line
    var upNext = line.shift(); //removes the first value of the var line array
-
    // parameter 1: any JavaScript value
    // parameter 2: any JavaScript value
    // Return: a single JavaScript value
