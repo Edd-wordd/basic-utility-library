@@ -93,7 +93,7 @@ function stringLength(input1) {
 }
 
 // Concatenating strings w/variables function
-function ConcatenatingStringVariables(input1, input2) {
+function concatenatingStringVariables(input1, input2) {
    var firstLine = input1 + " ";
    var secondLine = input2;
    var bothLines = firstLine + secondLine;
@@ -104,7 +104,7 @@ function ConcatenatingStringVariables(input1, input2) {
 }
 
 // Concatenating strings w/plus equals operator function
-function ConcatenatingStrings(input1, input2) {
+function concatenatingStrings(input1, input2) {
    // parameter 1: any JavaScript value
    // parameter 2: any JavaScript value
    // Return: a single JavaScript value
@@ -112,7 +112,7 @@ function ConcatenatingStrings(input1, input2) {
 }
 
 // Concatenating strings w/plus operator function
-function Concatenating(input1, input2) {
+function concatenating(input1, input2) {
    // parameter 1: any JavaScript value
    // parameter 2: any JavaScript value
    // Return: a single JavaScript value
@@ -135,14 +135,14 @@ function decimal(input1, input2) {
    return input1 * input2;
 }
 // Decrement function
-function Decrement(input1) {
+function decrement(input1) {
    // parameter 1: any JavaScript value
    // Return: a single JavaScript value
    return --input1;
 }
 
 // Increment function
-function Increment(input1) {
+function increment(input1) {
    // parameter 1: any JavaScript value
    // Return: a single JavaScript value
    return ++input1;
